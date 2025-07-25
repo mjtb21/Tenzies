@@ -1,0 +1,55 @@
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    font-family: Inter, sans-serif;
+}
+
+@supports (font-variation-settings: normal) {
+    :root {
+        font-family: InterVariable, sans-serif;
+    }
+}
+
+html {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    margin: 0;
+}
+
+body {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #141413;
+    line-height: 1.5;
+}
+
+.karla-400 {
+    font-weight: 400;
+    font-style: normal;
+}
+.karla-500 {
+    font-weight: 500;
+    font-style: normal;
+}
+.karla-600 {
+    font-weight: 600;
+    font-style: normal;
+}
+
+#root {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
